@@ -79,3 +79,34 @@ footer {
     background-color: #333;
     color: #fff;
 }
+
+
+#portfolio {
+    background-color: #f9f9f9;
+    padding: 4rem 0;
+}
+
+#portfolio .project {
+    margin-bottom: 2rem;
+}
+
+#testimonials {
+    background-color: #333;
+    color: white;
+    padding: 4rem 0;
+}
+
+#testimonials blockquote {
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+#testimonials cite {
+    display: block;
+    margin-top: 0.5rem;
+    color: #ddd;
+}
+
+#blog article {
+    margin-bottom: 2rem;
+}
