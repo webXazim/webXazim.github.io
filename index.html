@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webxazim - About Me</title>
+    <title>whoami</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <canvas id="starry-background"></canvas>
+    
     <header>
         <div class="hero">
-            <h1>I'm Azim</h1>
+          <h2>السلام عليكم 😊</h2>
+            <h1>It's me</h1>
             <p>Your Python & Django Developer</p>
             <a href="#about" class="btn">Discover More</a>
         </div>
@@ -49,17 +52,17 @@
     <section id="contact" class="section">
         <div class="container">
             <h2>Contact Me</h2>
-            <form id="contact-form">
+            <form id="contact-form" method="POST" action="send_email.php">
                 <input type="text" id="name" name="name" placeholder="Your Name" required>
                 <input type="email" id="email" name="email" placeholder="Your Email" required>
                 <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
+                <button type="submit" class="btn" value="send">Send Message</button>
             </form>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Webxazim. All rights reserved.</p>
+        <p>&copy; 2024 webXazim. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
